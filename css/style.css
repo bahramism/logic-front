@@ -1,0 +1,439 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body, html{
+	height: 100%;
+	width: 100%
+}
+
+#navbar{
+	text-decoration: none;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+#navbar .menu{
+	width: 25%;
+	height: 25%;
+	border-radius: 50%;
+	text-align: center;
+	position: absolute;
+	box-shadow: 5px 5px 5px white;
+	cursor: pointer;
+}
+
+#navbar .menu:hover{
+	box-shadow: 0px 0px 50px white;
+	transition: all 0.4s;
+	width: 25.1%;
+	height: 25.1%;
+}
+
+#navbar .menu a{
+	text-decoration: none;
+	display: block;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-weight: bold;
+	color: white;
+}
+
+#navbar .menu:nth-child(6) a{
+	color: #8c8c8c;
+}
+
+.navbar1{
+	background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(black, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, white); /* Standard syntax */
+	top: 37.5%;
+	left: 37.5%;
+}
+
+.navbar2{
+	background-color: #ff3293;
+	top: 5%;
+	left: 37.5%;
+}
+
+.navbar3{
+	background-color: #92d050;
+	top: 12.5%;
+	left: 12.5%;
+}
+
+.navbar4{
+	background-color: #c9c9c9;
+	top: 12.5%;
+	left: 62.5%;	
+}
+
+.navbar5{
+	background-color: #ffff00;
+	top: 37.5%;
+	left: 5%;
+}
+
+.navbar6{
+	background-color: #ff6600;
+	top: 37.5%;
+	left: 70%;
+}
+
+.navbar7{
+	background-color: #ff0000;
+	top: 62.5%;
+	left: 12.5%;
+}
+
+.navbar8{
+	background-color: #bf9000;
+	top: 62.5%;
+	left: 62.5%;
+}
+
+.navbar9{
+	background-color: #00b0f0;
+	top: 70%;
+	left: 37.5%;
+}
+
+.navbar1a{
+	color: white;
+	padding: 12% 0;
+	font-size: 4vw;
+}
+
+.navbar2a{
+	padding: 7% 0;
+	font-size:2.5vw;
+}
+
+.navbar3a{
+	padding: 12% 0;
+	font-size: 4vw;
+}
+
+.navbar4a{
+	padding: 12% 0;
+	font-size: 4vw;
+}
+
+.navbar5a{
+	padding: 11% 0;
+	font-size:2.5vw;
+}
+
+.navbar6a{
+	padding: 8% 0;
+	font-size:2.5vw;
+}
+
+.navbar7a{
+	padding: 12% 0;
+	font-size: 4vw;
+}
+
+.navbar8a{
+	padding: 12% 0;
+	font-size: 4vw;
+}
+
+.navbar9a{
+	padding: 3% 3.5%;
+	font-size:2.5vw;
+}
+
+.pages{
+	height: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+#page1{
+	background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(black, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, white); /* Standard syntax */
+
+	/*background: white; /* For browsers that do not support gradients */
+    /*background: -webkit-linear-gradient(white, black); /* For Safari 5.1 to 6.0 */
+    /*background: -o-linear-gradient(white, black); /* For Opera 11.1 to 12.0 */
+    /*background: -moz-linear-gradient(white, black); /* For Firefox 3.6 to 15 */
+    /*background: linear-gradient(white, black); /* Standard syntax */ 
+}	
+
+#page2{
+	background-color: #ff3293;
+}
+
+#page3{
+	background-color: #92d050;
+}
+
+#page4{
+	background-color: #c9c9c9;
+}
+
+#page5{
+	 background-color: #ffff4d;
+}
+
+#page6{
+	background-color: #ff6600;
+}
+
+#page7{
+	background-color: #ff0000;	
+}
+
+#page8{
+	background-color: #bf9000;
+}
+
+#page9{
+	background-color: #00b0f0;	
+}
+
+.smallnavbar{
+	text-decoration: none;
+	width: 100%;
+	height: auto;
+}
+
+.smallnavbar div{
+	position: absolute;
+	width: 10%;
+	height: auto;
+	border-radius: 50%;
+	text-align: center;
+	box-shadow: 2px 2px 3px white;
+	cursor: pointer;
+	float: left;
+	top: 2%;
+	/*position: relative;*/
+}
+
+.smallnavbar div:first-child{
+
+}
+
+.smallnavbar div:hover{
+	box-shadow: 0px 0px 50px white;
+	transition: all 0.4s;
+	width: 10.1%;
+	height: auto;
+
+}
+
+.smallnavbar div a{
+	text-decoration: none;
+	display: block;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-weight: bold;
+	color: white;
+}
+
+.smallnavbar div:nth-child(5) a{
+	color: #8c8c8c;
+}
+
+.smallnavbar1{
+	background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(black, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, white); /* Standard syntax */	
+    left: 3%;
+}
+
+.smallnavbar2{
+	background-color: #ff3293;
+	left: 13.5%;	
+}
+
+.smallnavbar3{
+	background-color: #92d050;
+	left: 24%;	
+}
+
+.smallnavbar4{
+	background-color: #c9c9c9;
+	left: 34.5%;	
+}
+
+.smallnavbar5{
+	background-color: #ffff00;
+	left: 45%;	
+}
+
+.smallnavbar6{
+	background-color: #ff6600;
+	left: 55.5%;
+}
+
+.smallnavbar7{
+	background-color: #ff0000;
+	left: 66%;
+}
+
+.smallnavbar8{
+	background-color: #bf9000;	
+	left: 76.5%;
+}
+
+.smallnavbar9{
+	background-color: #00b0f0;	
+	left: 87%;
+}
+
+.smallnavbar1a{
+	color: white;
+	padding: 12% 0;
+	font-size: 2vw;
+}
+
+.smallnavbar2a{
+	padding: 7% 0;
+	font-size:1.2vw;
+}
+
+.smallnavbar3a{
+	padding: 12% 0;
+	font-size: 2vw;
+}
+
+.smallnavbar4a{
+	padding: 12% 0;
+	font-size: 2vw;
+}
+
+.smallnavbar5a{
+	padding: 8% 0;
+	font-size:1.2vw
+}
+
+.smallnavbar6a{
+	padding: 10% 0;
+	font-size:1.1vw
+}
+
+.smallnavbar7a{
+	padding: 12% 0;
+	font-size: 2vw;
+}
+
+.smallnavbar8a{
+	padding: 12% 0;
+	font-size: 2vw;
+}
+
+.smallnavbar9a{
+	padding: 8% 0;
+	font-size:1.1vw;
+}
+
+.pages h1{
+	position: absolute;
+	font-family: 'Gloria Hallelujah', cursive;
+	top: 12%;
+	left: 20%;
+	font-size: 5vw;
+	color: white;
+}
+
+.pages p{
+	position: absolute;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.5vw;
+	width: 80%;
+	height: auto;
+	color: white;
+	top: 38%;
+	left:12%;
+}
+
+#page5 h1,
+#page5 p{
+	color: #8c8c8c;
+}
+
+.pages iframe{
+	position: absolute;
+	width: 43%;
+	height: 36%;
+	left: 15%;
+	top: 57%;
+	border-radius: 60px;
+}
+
+.logic{
+	position: absolute;
+	width: 30%;
+	height: 20%;
+	left: 70%;
+	top: 60%;
+}
+.logic a{
+	font-size: 2.5vw;
+	font-weight: bold;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: white;
+	text-decoration: none;
+}
+
+#page5 .logic a{
+	color: #8c8c8c;
+}
+
+#icon1{
+	position: absolute;
+	width: 14%;
+	height: 4%;
+	top: 92%;
+	left: 83%;
+}
+
+#icon1 a img{
+	width: 16%;
+	height: auto;
+	margin-left: 6%;
+	border-radius: 50%;
+}
+
+#icon1 a img:hover{
+	border:1px solid transition;
+	border-radius: 50%;
+	box-shadow: 0 0 40px black;
+	transition: all 0.3s;
+}
+
+#icon{
+	position: absolute;
+	width: 14%;
+	height: 4%;
+	top: 92%;
+	left: 83%;
+}
+
+#icon a img{
+	width: 16%;
+	height: auto;
+	margin-left: 6%;
+	border-radius: 50%;
+}
+
+#icon a img:hover{
+	border:1px solid transition;
+	border-radius: 50%;
+	box-shadow: 0 0 40px black;
+	transition: all 0.3s;
+}
